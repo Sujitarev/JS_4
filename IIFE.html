@@ -1,0 +1,22 @@
+<html>
+<head>
+<script type="text/javascript">
+function person(first,city,age)
+{
+this.firstName=first;
+this.city=city;
+this.age=age;
+
+this.print_func = function()
+{alert("The person first name is "+this.firstName+" and city is "+this.city+" age is "+this.age+ ".");
+}
+}
+var person_a=new person("Paul","Newyork",30);
+var person_b=new person("John","London",28);
+person_a.print_func();
+person_b.print_func();
+</script>
+</head>
+<body>
+</body>
+</html>
